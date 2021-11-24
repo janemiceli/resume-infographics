@@ -37,11 +37,11 @@
 \newenvironment{cvtimeline}[4]{
 	
 	\newcommand{\cvcategory}[2]{
-		\node[label=\mbox{\colorbox{##1}{\strut\hspace{2pt}}\colorbox{white}{\textcolor{textcol}{##2}}}] at (0,-5) {}; %start year
+		\node[label=\mbox{\colorbox{##1}{\strut\hspace{1pt}}\colorbox{bgcol}{\textcolor{textcol}{##2}}}] at (0,-5) {}; %start year
 	}
 
-	\newcommand{\bxwidth}{4.5}
-	\newcommand{\bxheight}{2}
+	\newcommand{\bxwidth}{1}
+	\newcommand{\bxheight}{1}
 
 
 	% creates a stretched box as cv entry headline followed by two paragraphs about 
@@ -68,9 +68,9 @@
   				\let\midexp\pgfmathresult
 
 				%\filldraw[fill=##6,draw=none, opacity=0.9] (-0.15-##7,\startexp) rectangle (-0.15-##7-0.5,\endexp);
-				\draw[draw=##6, line width=1.5pt] (0, \startexp) -- (1,\startexp);
+				\draw[draw=##6, line width=1pt] (0, \startexp) -- (1,\startexp);
 
-				\node[label={[label distance=0]0:\colorbox{##6}{\strut}\colorbox{white}{\textcolor{gray}{##1}\hspace{3pt}\textcolor{textcol}{##3}}}] at (0.5, \startexp) {};
+				\node[label={[label distance=0]0:\colorbox{##6}{\strut}\colorbox{bgcol}{\textcolor{gray}{##1}\hspace{1pt}\textcolor{textcol}{##3}}}] at (0.5, \startexp) {};
 			}
 			\addtocounter{leftcount}{1}
 		}
@@ -92,16 +92,16 @@
 	%for each year put a horizontal line in place
 	\setcounter{yearcount}{1}
 	\whiledo{\value{yearcount} < \fullrange}{
-		\draw[fill=white,draw=textcol, line width=2pt]  (0,#3/\fullrange*\value{yearcount}) circle (0.1);
+		\draw[fill=bgcol,draw=textcol, line width=2pt]  (0,#3/\fullrange*\value{yearcount}) circle (0.1);
 		\stepcounter{yearcount}
 	}
 
 	%start year
-	\filldraw[fill=white!100,draw=textcol,line width=3pt] (0,-0.5) circle (0.5);
+	\filldraw[fill=bgcol!100,draw=textcol,line width=3pt] (0,-0.5) circle (0.5);
 	\node[label=\textcolor{textcol}{\textbf{\small#1}}] at (0,-0.85) {}; 
 
 	%end year
-	\filldraw[fill=white!100,draw=textcol,line width=5pt] (0,#3+0.75) circle (0.75);
+	\filldraw[fill=bgcol!100,draw=textcol,line width=5pt] (0,#3+0.75) circle (0.75);
 	\node[label=\textcolor{textcol}{\textbf{\large#2}}] at (0,#3+0.42) {}; 
 
 

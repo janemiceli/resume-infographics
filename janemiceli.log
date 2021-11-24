@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.21)  23 NOV 2021 02:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.21)  23 NOV 2021 04:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -665,10 +665,6 @@ File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count292
 \l__pdf_internal_box=\box86
 )
-
-LaTeX Warning: Unused global option(s):
-    [Letter].
-
 (./janemiceli.aux)
 \openout1 = `janemiceli.aux'.
 
@@ -917,10 +913,10 @@ Overfull \vbox (5.0pt too high) has occurred while \output is active []
 {d:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./janemiceli.a
 ux) ) 
 Here is how much of TeX's memory you used:
- 17944 strings out of 478371
- 371044 string characters out of 5852521
- 707156 words of memory out of 5000000
- 35707 multiletter control sequences out of 15000+600000
+ 17941 strings out of 478371
+ 370999 string characters out of 5852521
+ 708411 words of memory out of 5000000
+ 35704 multiletter control sequences out of 15000+600000
  566883 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,89p,427b,878s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -932,7 +928,7 @@ xmf-dist/fonts/enc/dvips/raleway/a_yqxcf3.enc}<d:/texlive/2021/texmf-dist/fonts
 /type1/public/fontawesome/FontAwesome.pfb><d:/texlive/2021/texmf-dist/fonts/typ
 e1/impallari/raleway/Raleway-Bold.pfb><d:/texlive/2021/texmf-dist/fonts/type1/i
 mpallari/raleway/Raleway-Regular.pfb>
-Output written on janemiceli.pdf (1 page, 65248 bytes).
+Output written on janemiceli.pdf (1 page, 65263 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  27 compressed objects within 1 object stream
